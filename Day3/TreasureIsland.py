@@ -21,4 +21,4 @@ elif d1 == "left":
     else:
         print("game over")
 else:
-    print("game over")  
+    print("Game over")  
