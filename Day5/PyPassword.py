@@ -7,7 +7,7 @@ symbols = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '=', '+']
 
 li_password = []
 password = ""
-# gettin user requirements
+# gettin user requirements.
 nr_lett = int(input("how many letters you want in your password: "))
 nr_symbols = int(input("how many symbols you want in your password: "))
 nr_number = int(input("how many number you want in your password: "))
@@ -24,7 +24,7 @@ for lett in range(1,nr_number+1):
 
 total_length = nr_lett+nr_number+nr_symbols
 random.shuffle(li_password)
-# concatenate the element of list to make a password
+# concatenate the element of list to make a password.
 for i in range(0,total_length):
     password+= li_password[i]
 
