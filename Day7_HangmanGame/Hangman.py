@@ -131,7 +131,3 @@ while gameover != True:
         print("You win")
     
     print(graphic[6-NumberOfLives])
-
-
-
-
