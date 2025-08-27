@@ -21,3 +21,13 @@ print(blank_str)
 # ask the user to guess a latter and maake it lowerr case
 guess = input("Guess a letter: ").lower()
 # NumberOfLives = NumberOfBlanks
+
+# place the rightly gussed word in right Placeholder
+display = ""
+for alph in hide_word:
+    if alph == guess:
+        display+= guess
+    else:
+        display += "_ "
+        # NumberOfLives-= 1
+print(display)
