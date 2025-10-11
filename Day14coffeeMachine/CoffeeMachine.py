@@ -90,7 +90,7 @@ def upadte():
 engine=True
 while engine==True:
     ordertype=input("what do you want?'espresso' 'latte' 'coppuccino': ").lower()
-    if ordertype == "coppuccino" or ordertype == "espresso" or ordertype == "latte":
+    if ordertype == "cappuccino" or ordertype == "espresso" or ordertype == "latte":
         suffvar=Resuff(ordertype=ordertype)
         if suffvar==1:
             print("order can be fulfilled please insert cash")
