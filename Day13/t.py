@@ -56,6 +56,9 @@ previous_ques=[]
 while keepgoing==True:
     random_num_A=random.randint(0,29)
     random_num_B= random.randint(0,29)
+    if random_num_A==random_num_B:
+        random_num_B=random.randint(0,29)
+        
     person_a= random.choice(celebrities)
     person_b= random.choice(celebrities)
     followA= person_a["followers"]
@@ -80,4 +83,3 @@ while keepgoing==True:
         print(f"that's wrong! your final score is {current_score}")
         keepgoing=False
 
-        
